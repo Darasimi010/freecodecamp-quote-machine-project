@@ -1,0 +1,82 @@
+#main-content {
+  background-color: #333333;
+  color: #ffffff;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  width: 100%;
+  max-width: 35em;
+}
+
+#quote-inner-box {
+  background-color: #ffffff;
+  color: #333333;
+  padding: 2em;
+  border-radius: 0.3em;
+  height: fit-content;
+}
+
+#quote-text {
+  text-align: center;
+}
+
+.font-sizing {
+  font-size: 1.5em;
+}
+
+#quote-author {
+  padding: 1em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#quote-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1em 0 1em;
+}
+
+.btn {
+  height: 3em;
+  border-radius: 0.3em;
+  background-color: #333333;
+  color: #ffffff;
+  border: #333333;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #333333;
+  color: #ffffff;
+  border: #333333;
+  opacity: 0.8;
+}
+
+.socials {
+  width: 3em;
+}
+
+#new-quote {
+  width: 8em;
+}
+
+#contact {
+  font-size: small;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.grey-font-color {
+  color: #333333;
+  font-size: 2em;
+}
+
+#contact-link {
+  text-decoration: none;
+  color: inherit;
+}
